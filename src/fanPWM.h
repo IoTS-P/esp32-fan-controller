@@ -1,3 +1,5 @@
+#include <stdbool.h>
+
 void initPWMfan(void);
 void updateMQTT_Screen_withNewPWMvalue(int aPWMvalue, bool force);
 void updateMQTT_Screen_withNewMode(bool aModeIsOff, bool force);

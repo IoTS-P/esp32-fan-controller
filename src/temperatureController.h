@@ -1,3 +1,5 @@
+#include <stdbool.h>
+
 void initTemperatureController(void);
 void setFanPWMbasedOnTemperature(void);
 float getTargetTemperature(void);
